@@ -1,7 +1,6 @@
 # Technopark Firm Address Spider
 
 [![GitHub issues](https://img.shields.io/github/issues/serkan-ertas/technoparkSpider)](https://github.com/serkan-ertas/technoparkSpider/issues)
-[![GitHub forks](https://img.shields.io/github/forks/serkan-ertas/technoparkSpider)](https://github.com/serkan-ertas/technoparkSpider/network)
 [![GitHub stars](https://img.shields.io/github/stars/serkan-ertas/technoparkSpider)](https://github.com/serkan-ertas/technoparkSpider/stargazers)
 [![GitHub license](https://img.shields.io/github/license/serkan-ertas/technoparkSpider)](https://github.com/serkan-ertas/technoparkSpider/blob/main/LICENSE)
 
