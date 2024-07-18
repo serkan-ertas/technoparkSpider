@@ -1,6 +1,6 @@
 ### you only need to write this command to CLI:
 ###
-### scrapy runspider technoparkSpider_METU.py
+### scrapy runspider technoparkSpider_METU.py -O firm_data_METU.json
 
 
 import scrapy
@@ -39,6 +39,7 @@ class TechnoparkSpider(scrapy.Spider):
 
         urls = clearUrls(urls)
 
-        file_path = 'firm_data_METU.json'
-        with open(file_path, 'w') as file:
-            json.dump(urls, file, indent=4)
+        for url in urls:
+            yield{
+                'url':url
+            }
