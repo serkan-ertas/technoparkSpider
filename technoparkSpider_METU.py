@@ -28,7 +28,7 @@ def clearUrls(urls):
     return [extract_domain(url) for url in urls if is_valid_url(url)]
 
 
-class TechnoparkSpider(scrapy.Spider):
+class TechnoparkSpiderMETU(scrapy.Spider):
     name = "technoparkSpider"
     start_urls = ["https://odtuteknokent.com.tr/tr/firmalar/tum-firmalar.php"]
 
